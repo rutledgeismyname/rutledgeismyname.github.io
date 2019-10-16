@@ -56,13 +56,14 @@
             background-size: 100% 88%;
             cursor: pointer;
         }
-        #svg2{
-    
-    width: 100%;
-    display: block;
-    margin: 0 auto;
-    z-index: 99999;
-}
+
+        #svg2 {
+
+            width: 100%;
+            display: block;
+            margin: 0 auto;
+            z-index: 99999;
+        }
 
         @media screen and (max-width: 600px) {
             svg {
@@ -75,33 +76,7 @@
 </head>
 
 <body>
-    
-    <!-- logo SVG Intro 
-    <center>
 
-<svg viewBox="0 0 800 600" id="svg2">
-<style type="text/css">
-	.st0{fill:none; }
-	.st1{font-family:Raleway, sans-serif;}
-	.st2{font-size:2em;  }
-    
-    @media screen and (max-width: 600px) {
-        
-        .st2{font-size:7em; 
-        transform: matrix(1 0 0 1 150 100) !important;}
-        
-    }
-</style>
-    <filter id="displacementFilter">
-        <feTurbulence type="turbulence" baseFrequency=".10" numOctaves="9" result="turbulence" />
-        
-        <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="10" xChannelSelector="R" yChannelSelector="G" />
-    </filter>
-
-<text id="logo" style="filter:url(#displacementFilter); transform-origin: center;" transform="matrix(1 0 0 1 155 200)" class="st1 st2">Loading...</text>
-</svg></center>
-    
-    <!-- end logo SVG --> 
 
     <!-- intro svg -->
     <svg viewBox="0 0 600 400">
@@ -125,8 +100,8 @@
                 <footer class="blockquote-footer"><cite title="Source Title">Dean Smith</cite></footer>
             </blockquote>
             <p class="latest animated fadeInLeft"><b><span id="month"></span>/<span id="day"></span>/<span id="year"></span></b> - Currently brushing up with some courses on UI/UX design, along with interactive media elements. <br> <br><b>Rounding into October</b> - I will be attending <a href="https://smashingconf.com/ny-2019" target="_blank"><span class="underline-cray">Smashing Conference</span></a> for two days along with a bunch of hands-on workshops on design, front-end and UX. Super exciting stuff...stay tuned!
-                
-        
+
+
             </p>
 
 
@@ -182,26 +157,25 @@
     <!-- anime JS -->
     <script src="js/anime.min.js"></script>
     <!-- tooltip script -->
-    
+
     <script>
         $(document).ready(function() {
             $('[data-toggle="tooltip"]').tooltip();
         });
     </script>
-     <script>
-var d = new Date();
-document.getElementById("year").innerHTML = d.getFullYear();
-var d = new Date();
-document.getElementById("day").innerHTML = d.getDate()
-  var d = new Date();
-document.getElementById("month").innerHTML = (d.getMonth() +1);
-</script>
+    <script>
+        var d = new Date();
+        document.getElementById("year").innerHTML = d.getFullYear();
+        var d = new Date();
+        document.getElementById("day").innerHTML = d.getDate()
+        var d = new Date();
+        document.getElementById("month").innerHTML = (d.getMonth() + 1);
+    </script>
 
     <script>
         anime({
             targets: '.polymorph',
-            points: [
-                 {
+            points: [{
                     value: '600,0 301,0 0,0 0,0 600,0  '
                 },
                 {
@@ -210,42 +184,46 @@ document.getElementById("month").innerHTML = (d.getMonth() +1);
                 {
                     value: '600,0 300,13 0,26 0,0 600,0 '
                 },
-           
-                
+
+
             ],
             easing: 'easeInSine',
             duration: 2800,
             loop: false,
-            delay:0,
+            delay: 0,
         });
     </script>
-    
-    
-    
-     
+
+
+
+
     <script>
         let t1 = anime.timeline({
-            duration:3000,
+            duration: 3000,
             easing: 'easeInOutSine'
-            
+
         })
-        
-        t1.add ({
-            targets:'#svg2',
-            keyframes:[
-                
-                {scale:1},
-               
-                {scale:0},
+
+        t1.add({
+            targets: '#svg2',
+            keyframes: [
+
+                {
+                    scale: 1
+                },
+
+                {
+                    scale: 0
+                },
             ],
-            duration:2500
-            
+            duration: 2500
+
         })
-        t1.add ({
+        t1.add({
             targets: ["#logo", 'feTurbulence', 'feDisplacementMap'],
-            baseFrequency:0,
-            numOctaves:0,
-            
+            baseFrequency: 0,
+            numOctaves: 0,
+
         }, "-=4000")
     </script>
 
