@@ -110,7 +110,7 @@
         <polygon class="polymorph" points="600,400 561.7,400 0,400 0,0 600,0 " />
     </svg>
    
-    <i class="fa fa-lightbulb-o animated fadeInRight" aria-hidden="true" onclick="switchDark()"></i>
+    <i class="fa fa-lightbulb-o animated fadeInRight modeselector" aria-hidden="true" onclick="switchDark()"></i>
     
 
     <div class="container">
@@ -264,6 +264,21 @@ function switchDark() {
     
 </script>
     
+   <script>
+     $(".fa-lightbulb-o").click(function(){
+    $(".fa-lightbulb-o").css("color","red");
+    localStorage.setItem('btnClicked', true);
+ });
+    </script>
+ <script>
+        $(document).ready(function (){
+    var clicked = localStorage.getItem(".fa-lightbulb-o");
+    if(clicked){
+       $(".fa-lightbulb-o").css("color","red");
+    }
+});
+        
+    </script>
   
    
 </body>
