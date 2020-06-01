@@ -20,7 +20,7 @@ body{
     background: var(--background-color) !important;
 }
 h1{
-    color:var(--heading-color) !important;
+    color:var(--text-color) !important;
     font-family: Raleway, sans-serif; 
 }
 h2,
