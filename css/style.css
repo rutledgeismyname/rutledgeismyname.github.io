@@ -1,7 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
 
+:root {
+  --background-color: #fff;
+  --text-color: #0e131b;
+    
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #000000;
+    --text-color: #eee;
+   
+  }
+}
+
 body{
-    background: #000000 !important;
+    background: var(--background-color) !important;
 }
 
 h1,
@@ -12,7 +26,7 @@ h5,
 h6,
 a,
 a:hover{
-    color:#ffffff;
+    color:var(--text-color) !important;
     font-family: Raleway, sans-serif;
    
 }
@@ -41,7 +55,7 @@ h4{
 
 }
 
-.latest{color: white;
+.latest{color: var(--text-color);
     margin-top: 20px;
     /*padding-bottom: 100px;*/
 -webkit-animation-duration: 1.5s !important;
@@ -140,7 +154,7 @@ blockquote{
     }
  
   .fa-envelope{
-        background: #ffffff !important;
+        background: #eee !important;
         position: fixed;
         bottom: 0;
         left: 25%;
