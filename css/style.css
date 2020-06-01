@@ -3,23 +3,22 @@
 :root {
     --background-color: #fff;
     --text-color: #000;
-    --heading-color: #00aced;
+    --poly-bg:#000;
     
 }
 
 body.dark{
     --background-color: #000000;
     --text-color: #fff;
-    --heading-color: #00aced;
+    --poly-bg:#fff;
 }
 
 body {
     background: var(--background-color) !important;
 }
-
-
-
-
+.polymorph{
+fill:var(--poly-bg) !important;
+}
 h2,
 h3,
 h4,
@@ -34,13 +33,13 @@ a:hover {
 
 .fa-lightbulb-o {
     position: fixed;
-    bottom: 10%;
-    right: 5%;
+    bottom: 11%;
+    right: 6%;
     color: var(--text-color) !important;
     z-index: 9999;
-    font-size: 1.7em !important;
-     -webkit-animation-duration: .6s !important;
-    -webkit-animation-delay: 4.7s;
+    font-size: 1.8em !important;
+    -webkit-animation-duration: 2.2s !important;
+    -webkit-animation-delay: .8s;
     -webkit-animation-iteration-count: 1;
     
 }
@@ -52,15 +51,15 @@ h1 {
     color: var(--text-color) !important;
     font-family: Raleway, sans-serif;
     font-size: 90px;
-    -webkit-animation-duration: 1s !important;
-    -webkit-animation-delay: 1s;
+    -webkit-animation-duration: 2.2s !important;
+    -webkit-animation-delay: .8s;
     -webkit-animation-iteration-count: 1;
 }
 
 h3 {
     font-size: 60px;
-    -webkit-animation-duration: 1s !important;
-    -webkit-animation-delay: 1s;
+    -webkit-animation-duration: 2.2s !important;
+    -webkit-animation-delay: .8s;
     -webkit-animation-iteration-count: 1;
 
 }
@@ -68,8 +67,8 @@ h3 {
 h4 {
     font-size: 20px;
     padding-top: 20px;
-    -webkit-animation-duration: 1s !important;
-    -webkit-animation-delay: 1s;
+    -webkit-animation-duration: 2.2s !important;
+    -webkit-animation-delay: .8s;
     -webkit-animation-iteration-count: 1;
 
 }
@@ -78,41 +77,15 @@ h4 {
     color: var(--text-color);
     margin-top: 20px;
     /*padding-bottom: 100px;*/
-    -webkit-animation-duration: 1s !important;
-    -webkit-animation-delay: 1s;
-    -webkit-animation-iteration-count: 1;
-}
-
-.link-more {
-    color: white;
-    font-size: 25px;
-    text-align: center;
-    position: fixed;
-    bottom: 30px;
-    left: 15px;
-
-    -webkit-animation-duration: 1s !important;
-    -webkit-animation-delay: 3s;
-    -webkit-animation-iteration-count: 1;
-}
-
-.git-more {
-    color: white;
-    font-size: 25px;
-    text-align: center;
-    position: fixed;
-    bottom: 30px;
-    right: 15px;
-
-    -webkit-animation-duration: 1s !important;
-    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 2.2s !important;
+    -webkit-animation-delay: .8s;
     -webkit-animation-iteration-count: 1;
 }
 
 blockquote {
     padding-top: 20px;
-    -webkit-animation-duration: 1s !important;
-    -webkit-animation-delay: 1s;
+    -webkit-animation-duration: 2.2s !important;
+    -webkit-animation-delay: .8s;
     -webkit-animation-iteration-count: 1;
 }
 
@@ -177,8 +150,6 @@ blockquote {
     -webkit-animation-delay: 3s;
     -webkit-animation-iteration-count: 1;
     z-index: 999999;
-
-
 }
 
 .fa-envelope {
@@ -207,9 +178,6 @@ blockquote {
 
     }
 
-
-
-
 }
 
 @media screen and (max-width: 1275px) {
@@ -231,7 +199,6 @@ blockquote {
 
     }
 
-
     h3 {
         font-size: 30px;
 
@@ -250,8 +217,6 @@ blockquote {
 
 
     }
-
-
 
 }
 
@@ -280,15 +245,11 @@ blockquote {
 
     h3 {
         font-size: 20px;
-
-
     }
 
     h4 {
         font-size: 13.5px;
         padding-top: 5px;
-
-
     }
 
     blockquote {
