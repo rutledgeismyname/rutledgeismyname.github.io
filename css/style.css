@@ -3,7 +3,7 @@
 :root {
   --background-color: #fff;
   --text-color: #000;
-    --heading-color:#05d6a6;
+    --heading-color:#00aced;
     
 }
 
@@ -11,7 +11,7 @@
   :root {
     --background-color: #000000;
     --text-color: #fff;
-    --heading-color:#05d6a6;
+    --heading-color:#00aced;
    
   }
 }
