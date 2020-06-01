@@ -35,7 +35,7 @@ a:hover {
     right: 5%;
     color: var(--text-color) !important;
     z-index: 9999;
-    font-size: 1.5em !important;
+    font-size: 1.6em !important;
      -webkit-animation-duration: .4s !important;
     -webkit-animation-delay: 6.5s;
     -webkit-animation-iteration-count: 1;
