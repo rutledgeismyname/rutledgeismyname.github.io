@@ -74,54 +74,21 @@
     </style>
 
 </head>
-
 <body>
-
-    <!-- logo SVG Intro 
-    <center>
-
-<svg viewBox="0 0 800 600" id="svg2">
-<style type="text/css">
-	.st0{fill:none; }
-	.st1{font-family:Raleway, sans-serif;}
-	.st2{font-size:2em;  }
-    
-    @media screen and (max-width: 600px) {
-        
-        .st2{font-size:7em; 
-        transform: matrix(1 0 0 1 150 100) !important;}
-        
-    }
-</style>
-    <filter id="displacementFilter">
-        <feTurbulence type="turbulence" baseFrequency=".10" numOctaves="9" result="turbulence" />
-        
-        <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="10" xChannelSelector="R" yChannelSelector="G" />
-    </filter>
-
-<text id="logo" style="filter:url(#displacementFilter); transform-origin: center;" transform="matrix(1 0 0 1 155 200)" class="st1 st2">Loading...</text>
-</svg></center>
-    
-    <!-- end logo SVG -->
 
     <!-- intro svg -->
     <svg viewBox="0 0 600 400">
 
         <polygon class="polymorph" points="600,400 561.7,400 0,400 0,0 600,0 " />
     </svg>
-   
-    <i class="fa fa-lightbulb-o animated fadeInRight" aria-hidden="true" onclick="switchDark()"></i>
-    
+
+    <!--<i class="fa fa-lightbulb-o animated fadeInRight" aria-hidden="true" onclick="switchDark()"></i>-->
+    <i class="fa fa-lightbulb-o animated fadeInRight" aria-hidden="true" onclick="localStorage.setItem('mode', (localStorage.getItem('mode') || 'dark') === 'dark' ? 'light' : 'dark'); localStorage.getItem('mode') === 'dark' ? document.querySelector('body').classList.add('dark') : document.querySelector('body').classList.remove('dark')"></i>
 
     <div class="container">
-
-
         <div class="row header">
-
             <h1 class="animated fadeInLeft">Christopher Rutledge</h1>
             <h3 class="animated fadeInLeft">Junior Developer employed by the Philadelphia Eagles </h3>
-
-
             <blockquote class="blockquote animated fadeInLeft">
                 <p class="mb-0">“Things start out as hopes and end up as habits.”</p>
                 <footer class="blockquote-footer"><cite title="Source Title">Lillian Hellman</cite></footer>
@@ -132,7 +99,6 @@
             <p class="latest animated fadeInLeft"> Also, while you're here. Tap the light bulb for light/dark preference.</p>
 
         </div>
-
         <div class="row">
             <div class="col-md-3 col-lg-3 col-sm-3">
 
@@ -149,22 +115,8 @@
             <div class="col-md-3 col-lg-3 col-sm-3">
                 <a href="https://twitter.com/crutledge99" target="_blank"><i class="fa fa-twitter animated fadeInLeft" aria-hidden="true"></i></a>
             </div>
-
         </div>
     </div>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-84556181-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-84556181-1');
-    </script>
     <script src="https://use.fontawesome.com/4cf52dbce5.js"></script>
 
     <!-- jQuery -->
@@ -220,9 +172,6 @@
         });
     </script>
 
-
-
-
     <script>
         let t1 = anime.timeline({
             duration: 3000,
@@ -253,22 +202,25 @@
         }, "-=4000")
     </script>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            ((localStorage.getItem('mode') || 'dark') === 'dark') ? document.querySelector('body').classList.add('dark'): document.querySelector('body').classList.remove('dark')
+        })
+    </script>
 
-    <!-- Dark Mode Script -->
-  
 
-   
-<script>
-function switchDark() {
-   var element = document.body;
-   element.classList.toggle("dark-theme");
-}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-84556181-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-84556181-1');
+    </script>
     
-</script>
-    
-  
-  
-   
 </body>
-
 </html>
