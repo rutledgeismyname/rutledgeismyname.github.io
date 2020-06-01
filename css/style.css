@@ -4,18 +4,8 @@
     --background-color: #fff;
     --text-color: #000;
     --heading-color: #00aced;
-
+    
 }
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background-color: #000000;
-        --text-color: #fff;
-        --heading-color: #00aced;
-
-    }
-}
-
 
 .dark-theme{
     --background-color: #000000;
@@ -39,19 +29,19 @@ a:hover {
 
 }
 
-.fa-star-half-o {
+.fa-lightbulb-o {
     position: fixed;
-    top: 6%;
-    right: 2.5%;
+    bottom: 10%;
+    right: 5%;
     color: var(--text-color) !important;
     z-index: 9999;
     font-size: 1.5em !important;
-     -webkit-animation-duration: 1s !important;
-    -webkit-animation-delay: 3s;
+     -webkit-animation-duration: .4s !important;
+    -webkit-animation-delay: 6.5s;
     -webkit-animation-iteration-count: 1;
     
 }
-.fa-star-half-o:hover{
+.fa-lightbulb-o:hover{
     cursor: pointer !important;
     transition: .1s !important;
 }

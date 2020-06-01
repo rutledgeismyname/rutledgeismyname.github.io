@@ -109,7 +109,9 @@
 
         <polygon class="polymorph" points="600,400 561.7,400 0,400 0,0 600,0 " />
     </svg>
-    <i class="fa fa-star-half-o animated fadeInDown" aria-hidden="true" onclick="switchMode()"></i>
+   
+    <i class="fa fa-lightbulb-o animated fadeInRight" aria-hidden="true" onclick="switchDark()"></i>
+    
 
     <div class="container">
 
@@ -255,10 +257,11 @@
     <!-- Dark Mode Script -->
     
 <script>
-function switchMode() {
+function switchDark() {
    var element = document.body;
    element.classList.toggle("dark-theme");
 }
+    
 </script>
    
 </body>
