@@ -50,14 +50,14 @@ a:hover {
 h1 {
     color: var(--text-color) !important;
     font-family: Raleway, sans-serif;
-    font-size: 90px;
+    font-size: 4.5vw;
     -webkit-animation-duration: 2.2s !important;
     -webkit-animation-delay: .8s;
     -webkit-animation-iteration-count: 1;
 }
 
 h3 {
-    font-size: 60px;
+    font-size: 3.1vw;
     -webkit-animation-duration: 2.2s !important;
     -webkit-animation-delay: .8s;
     -webkit-animation-iteration-count: 1;
@@ -65,7 +65,7 @@ h3 {
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 3.8vw;
     padding-top: 20px;
     -webkit-animation-duration: 2.2s !important;
     -webkit-animation-delay: .8s;
@@ -103,7 +103,7 @@ blockquote {
     margin-top: 0px;
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 80px;
+    padding-top: 25%;
 }
 
 .fa-linkedin {
@@ -167,43 +167,12 @@ blockquote {
 
 }
 
-@media screen and (min-width: 1500px) {
-    h1 {
-        font-size: 70px;
-        margin-top: 150px;
-    }
 
-    h3 {
-        font-size: 45px;
 
-    }
 
-}
-
-@media screen and (max-width: 1275px) {
-    h1 {
-        font-size: 60px;
-
-    }
-
-    h3 {
-        font-size: 30px;
-
-    }
-
-}
 
 @media screen and (max-width: 975px) {
-    h1 {
-        font-size: 60px;
-
-    }
-
-    h3 {
-        font-size: 30px;
-
-    }
-
+    
     .latest {
         margin-top: 25px;
     }
@@ -220,38 +189,12 @@ blockquote {
 
 }
 
-@media screen and (max-width: 775px) {
 
-    h1 {
-        font-size: 36px;
-
-    }
-
-    h3 {
-        font-size: 26px;
-
-    }
-
-
-}
 
 /*Extra small devices*/
 @media screen and (max-width: 575px) {
 
-    h1 {
-        font-size: 25px;
-
-    }
-
-    h3 {
-        font-size: 20px;
-    }
-
-    h4 {
-        font-size: 13.5px;
-        padding-top: 5px;
-    }
-
+  
     blockquote {
         padding-top: 10px;
 
