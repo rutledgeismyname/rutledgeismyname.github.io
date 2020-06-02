@@ -16,11 +16,11 @@ body.dark{
 
 body {
     background: var(--background-color) !important;
-    transition: .8s;
+    transition: .6s;
 }
 .polymorph{
 fill:var(--poly-bg) !important;
-    transition: .8s;
+    transition: .6s;
 }
 h2,
 h3,
@@ -31,7 +31,7 @@ a,
 a:hover {
     color: var(--text-color) !important;
     font-family: Raleway, sans-serif;
-   transition: .8s;
+    transition: .6s;
 
 }
 
@@ -58,7 +58,7 @@ h1 {
     -webkit-animation-duration: 2.2s !important;
     -webkit-animation-delay: .8s;
     -webkit-animation-iteration-count: 1;
-    transition: .8s;
+    transition: .6s;
 }
 
 h3 {
@@ -81,7 +81,7 @@ h4 {
 .latest {
     color: var(--text-color);
     margin-top: 20px;
-     transition: .8s;
+     transition: .6s;
     /*padding-bottom: 100px;*/
     -webkit-animation-duration: 2.2s !important;
     -webkit-animation-delay: .8s;
