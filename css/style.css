@@ -80,8 +80,9 @@ h4 {
 
 .latest {
     color: var(--text-color);
-    margin-top: 20px;
-     transition: .6s;
+    margin-top: 15px;
+    transition: .6s;
+    font-size: 17px;
     /*padding-bottom: 100px;*/
     -webkit-animation-duration: 2.2s !important;
     -webkit-animation-delay: .8s;
@@ -186,7 +187,7 @@ blockquote {
     }
     
     .latest {
-        margin-top: 25px;
+        margin-top: 15px;
     }
 
     .fa-linkedin,
@@ -220,6 +221,31 @@ blockquote {
     .blockquote-footer {
         color: #484848;
         font-size: 14px;
+    }
+
+}
+
+
+/*Super duper small devices*/
+@media screen and (max-width: 390px) {
+    .header{
+        padding-top: 20%;
+    }
+        
+    .latest {
+        margin-top: 5px;
+        font-size: 13px;
+    }
+
+  
+    .mb-0 {
+        color: #7b7b7b;
+        font-size: 12px;
+    }
+
+    .blockquote-footer {
+        color: #484848;
+        font-size: 12px;
     }
 
 }
