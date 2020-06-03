@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
 
 :root {
-    --background-color: #fff;
+    --background-color: #000;
     --text-color: #000;
     --poly-bg: #000;
     --bulb-color:#000;
@@ -9,13 +9,6 @@
 
 }
 
-body.dark {
-    --background-color: #000000;
-    --text-color: #fff;
-    --poly-bg: #fff;
-    --bulb-color:#000;
-    --bulb-figure:none;
-}
 
 body {
     background: var(--background-color) !important;
@@ -23,31 +16,10 @@ body {
 }
 
 
-.fa-lightbulb-o {
-   
-    position: fixed;
-    bottom: 6%;
-    right: 6%;
-    color: var(--bulb-color) !important;
-    -webkit-animation-duration: 1s !important;
-    -webkit-animation-delay: .4s;
-    -webkit-animation-iteration-count: 1;
-    font-size: 52px !important;
-    display: var(--bulb-figure) !important;
-   
-}
-
-.fa-lightbulb-o:hover {
-    cursor: pointer !important;
-    transition: .1s !important;
-}
-
 .blm {
-    font-size: 30px;
-    text-align: center;
-    color: #fff;
-    transition: .6s;
-   font-family: Raleway, sans-serif;
+    font-size: 100px;
+    color: #3e3e3e;
+    font-family: Raleway, sans-serif;
     z-index: 9999;
 
 }
@@ -57,5 +29,12 @@ body {
     margin-top: 0px;
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 40%;
+    padding-top: 50%;
+}
+
+@media screen and (max-width: 990px){
+    .blm{
+        font-size: 31px;
+    }
+    
 }
