@@ -210,22 +210,19 @@ blockquote {
 
 @media screen and (max-width: 975px) {
     h1{
-          font-size:6vw;
+          font-size:7vw;
     }
     h3{
-        font-size: 4.7vw;
+        font-size: 4.8vw;
     }
-    
-    .latest {
-        margin-top: 15px;
-    }
+
 
     .fa-linkedin,
     .fa-github,
     .fa-envelope,
     .fa-twitter {
 
-        padding: 15px;
+        padding: 14px;
 
 
     }
@@ -264,18 +261,18 @@ blockquote {
         
     .latest {
         margin-top: 5px;
-        font-size: 13px;
+        font-size: 3.1vw;
     }
 
   
     .mb-0 {
         color: #7b7b7b;
-        font-size: 12px;
+        font-size: 3vw;
     }
 
     .blockquote-footer {
         color: #484848;
-        font-size: 12px;
+        font-size: 3vw;
     }
 
 }
