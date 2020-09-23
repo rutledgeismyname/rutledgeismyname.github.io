@@ -61,7 +61,7 @@ a:hover {
 h1 {
     color: var(--text-color) !important;
     font-family: Raleway, sans-serif;
-    font-size: clamp(2rem, 4.5vw, 5.5rem);
+    font-size: clamp(1.4rem, 4.5vw, 5.5rem);
     animation-duration: 2.2s;
     animation-delay: .8s;
     animation-iteration-count: 1;
@@ -72,7 +72,7 @@ h1 {
 }
 
 h3 {
-    font-size: clamp(1.3rem, 3.5vw, 2.4rem);
+    font-size: clamp(1rem, 3.5vw, 2.4rem);
     animation-duration: 2.2s;
     animation-delay: .8s;
     animation-iteration-count: 1;
@@ -86,7 +86,7 @@ h3 {
     color: var(--text-color);
     margin-top: 15px;
     transition: .4s;
-    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    font-size: clamp(.9rem, 2.5vw, 1.2rem);
     animation-duration: 2.2s;
     animation-delay: .8s;
     animation-iteration-count: 1;
@@ -108,7 +108,7 @@ blockquote {
 .mb-0 {
     color: #7b7b7b;
     font-family: Raleway, sans-serif;
-    font-size: clamp(.5rem, 2.5vw, 1.2rem);
+    font-size: clamp(.8rem, 2.5vw, 1.2rem);
 }
 
 .blockquote-footer {
@@ -121,7 +121,7 @@ blockquote {
     margin-top: 0px;
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 20%;
+    padding-top: 25%;
 }
 
 .fa-linkedin {
@@ -212,6 +212,6 @@ blockquote {
 /*Super duper small devices*/
 @media screen and (max-width: 690px) {
     .header {
-        padding-top: 30%;
+        padding-top: 27%;
     }
 }
