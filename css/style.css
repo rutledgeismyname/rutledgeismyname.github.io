@@ -121,7 +121,7 @@ blockquote {
     margin-top: 0px;
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 25%;
+    padding-top: 20%;
 }
 
 .fa-linkedin {
@@ -212,6 +212,6 @@ blockquote {
 /*Super duper small devices*/
 @media screen and (max-width: 690px) {
     .header {
-        padding-top: 27%;
+        padding-top: 26%;
     }
 }
