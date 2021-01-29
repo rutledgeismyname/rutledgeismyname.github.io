@@ -1,129 +1,158 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en-US">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Christopher Rutledge</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Junior front-end web developer currently working in Philadelphia, PA" />
-    <meta name="keywords" content="Chris Rutledge, rutledgeismyname, rutledge, digital developer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Junior front-end web developer currently working in Philadelphia, PA"
+    />
+    <meta
+      name="keywords"
+      content="Chris Rutledge, rutledgeismyname, rutledge, digital developer"
+    />
     <meta name="author" content="Christopher Rutledge" />
-    <link rel="icon" type="image/png" href="images/fav-cr-icon.png">
+    <link rel="icon" type="image/png" href="images/fav-cr-icon.png" />
     <!-- Facebook and Twitter integration -->
     <meta property="og:title" content="Chris Rutledge" />
     <meta property="og:image" content="images/fav-cr-icon.png" />
     <meta property="og:url" content="http://www.rutledgeismyname.com" />
     <meta property="og:site_name" content="rutledgeismyname.com" />
-    <meta property="og:description" content="Junior Web Developer currently working in Philadelphia, PA" />
+    <meta
+      property="og:description"
+      content="Junior Web Developer currently working in Philadelphia, PA"
+    />
     <meta name="twitter:title" content="Chris Rutledge" />
     <meta name="twitter:image" content="images/fav-cr-icon.png" />
     <meta name="twitter:url" content="http://www.rutledgeismyname.com" />
     <meta name="twitter:card" content="images/fav-cr-icon.png" />
 
     <!-- Bootstrap  -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
     <!-- Animate.css -->
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/animate.css" />
 
     <!-- Icomoon Icon Fonts-->
-    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/icomoon.css" />
 
     <!-- Theme style  -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/intro.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/intro.css" />
 
     <script src="js/modernizr-2.6.2.min.js"></script>
     <style>
+      svg {
+        position: fixed;
+      }
+
+      .underline-cray {
+        background-image: linear-gradient(120deg, #004c54 0%, #fff 100%);
+        background-repeat: no-repeat;
+        background-size: 100% 0.2em;
+        background-position: 0 90%;
+        padding: 2px;
+        transition: background-size 0.25s ease-in;
+      }
+
+      .underline-cray:hover {
+        background-size: 100% 88%;
+        cursor: pointer;
+      }
+
+      #svg2 {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        z-index: 99999;
+      }
+
+      @media screen and (max-width: 600px) {
         svg {
-            position: fixed;
-
-
+          position: fixed;
+          width: 1000px;
         }
-
-        .underline-cray {
-            background-image: linear-gradient(120deg, #004c54 0%, #fff 100%);
-            background-repeat: no-repeat;
-            background-size: 100% 0.20em;
-            background-position: 0 90%;
-            padding: 2px;
-            transition: background-size 0.25s ease-in;
-        }
-
-        .underline-cray:hover {
-            background-size: 100% 88%;
-            cursor: pointer;
-        }
-
-        #svg2 {
-
-            width: 100%;
-            display: block;
-            margin: 0 auto;
-            z-index: 99999;
-        }
-
-        @media screen and (max-width: 600px) {
-            svg {
-                position: fixed;
-                width: 1000px;
-            }
-        }
+      }
     </style>
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <!-- intro anmiated svg -->
     <svg viewBox="0 0 600 400">
-        <polygon class="polymorph" points="600,400 561.7,400 0,400 0,0 600,0 " />
+      <polygon class="polymorph" points="600,400 561.7,400 0,400 0,0 600,0 " />
     </svg>
 
-    <i class="fa fa-lightbulb-o animated fadeInUp" aria-hidden="true"
-        onclick="localStorage.setItem('mode', (localStorage.getItem('mode') || 'dark') === 'dark' ? 'light' : 'dark'); localStorage.getItem('mode') === 'dark' ? document.querySelector('body').classList.add('dark') : document.querySelector('body').classList.remove('dark')"></i>
+    <i
+      class="fa fa-lightbulb-o animated fadeInUp"
+      aria-hidden="true"
+      onclick="localStorage.setItem('mode', (localStorage.getItem('mode') || 'dark') === 'dark' ? 'light' : 'dark'); localStorage.getItem('mode') === 'dark' ? document.querySelector('body').classList.add('dark') : document.querySelector('body').classList.remove('dark')"
+    ></i>
 
     <div class="container">
-        <div class="row header">
-            <h1 class="animated fadeInUp">Christopher Rutledge</h1>
-            <h3 class="animated fadeInUp">Junior Developer employed by the Philadelphia Eagles </h3>
-            <blockquote class="blockquote animated fadeInUp">
-                <p class="mb-0">“When we get too caught up in the busyness of the world, we lose connection with one
-                    another—and ourselves.”</p>
-                <footer class="blockquote-footer"><cite title="Source Title">Jack Kornfield</cite></footer>
-            </blockquote>
-            <p class="latest animated fadeInUp"><b style="border-bottom: 2px solid white; padding-bottom:1px;"><span
-                        id="month"></span>/<span id="day"></span>/<span id="year"></span></b> - Back to the drawing
-                board, cooking up a fresh look for my portfolio. Launch is set for <span
-                    class="underline-cray">2/1/21</span>.
-
-            </p>
-            <p class="latest animated fadeInUp"> Since you are here, why not play with the funny looking light bulb?
-                Just a fun way to handle light/dark mode.</p>
-
+      <div class="row header">
+        <h1 class="animated fadeInUp">Christopher Rutledge</h1>
+        <h3 class="animated fadeInUp">
+          Junior Developer employed by the Philadelphia Eagles
+        </h3>
+        <blockquote class="blockquote animated fadeInUp">
+          <p class="mb-0">
+            “Kind words can be short and easy to speak, but their echoes are
+            truly endless.”
+          </p>
+          <footer class="blockquote-footer">
+            <cite title="Source Title">Mother Teresa</cite>
+          </footer>
+        </blockquote>
+        <p class="latest animated fadeInUp">
+          <b style="border-bottom: 2px solid white; padding-bottom: 1px"
+            ><span id="month"></span>/<span id="day"></span>/<span
+              id="year"
+            ></span
+          ></b>
+          - Back to the drawing board, cooking up a fresh look for my portfolio.
+          Launch is set for <span class="underline-cray">3/1/21</span>.
+        </p>
+        <p class="latest animated fadeInUp">
+          Since you are here, why not play with the funny looking light bulb?
+          Just a fun way handling light/dark mode.
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-md-3 col-lg-3 col-sm-3">
+          <a
+            href="https://www.linkedin.com/in/christopher-rutledge-71755599/"
+            target="_blank"
+            ><i
+              class="fa fa-linkedin animated fadeInLeft"
+              aria-hidden="true"
+            ></i
+          ></a>
         </div>
-        <div class="row">
-            <div class="col-md-3 col-lg-3 col-sm-3">
-
-                <a href="https://www.linkedin.com/in/christopher-rutledge-71755599/" target="_blank"><i
-                        class="fa fa-linkedin animated fadeInLeft" aria-hidden="true"></i></a>
-
-            </div>
-            <div class="col-md-3 col-lg-3 col-sm-3">
-                <a href="https://github.com/rutledgeismyname" target="_blank"><i
-                        class="fa fa-github animated fadeInLeft" aria-hidden="true"></i></a>
-
-            </div>
-            <div class="col-md-3 col-lg-3 col-sm-3">
-                <a href="mailto:hi@rutledgeismyname.com"><i class="fa fa-envelope animated fadeInLeft"
-                        aria-hidden="true"></i></a>
-            </div>
-            <div class="col-md-3 col-lg-3 col-sm-3">
-                <a href="https://twitter.com/crutledge99" target="_blank"><i class="fa fa-twitter animated fadeInLeft"
-                        aria-hidden="true"></i></a>
-            </div>
+        <div class="col-md-3 col-lg-3 col-sm-3">
+          <a href="https://github.com/rutledgeismyname" target="_blank"
+            ><i class="fa fa-github animated fadeInLeft" aria-hidden="true"></i
+          ></a>
         </div>
+        <div class="col-md-3 col-lg-3 col-sm-3">
+          <a href="mailto:hi@rutledgeismyname.com"
+            ><i
+              class="fa fa-envelope animated fadeInLeft"
+              aria-hidden="true"
+            ></i
+          ></a>
+        </div>
+        <div class="col-md-3 col-lg-3 col-sm-3">
+          <a href="https://twitter.com/crutledge99" target="_blank"
+            ><i class="fa fa-twitter animated fadeInLeft" aria-hidden="true"></i
+          ></a>
+        </div>
+      </div>
     </div>
     <script src="https://use.fontawesome.com/4cf52dbce5.js"></script>
 
@@ -145,90 +174,91 @@
     <!-- tooltip script -->
 
     <script>
-        $(document).ready(function () {
-            $('[data-toggle="tooltip"]').tooltip();
-        });
+      $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
     </script>
     <script>
-        var d = new Date();
-        document.getElementById("year").innerHTML = d.getFullYear();
-        var d = new Date();
-        document.getElementById("day").innerHTML = d.getDate()
-        var d = new Date();
-        document.getElementById("month").innerHTML = (d.getMonth() + 1);
-    </script>
-
-    <script>
-        anime({
-            targets: '.polymorph',
-            points: [{
-                value: '600,0 301,0 0,0 0,0 600,0  '
-            },
-            {
-                value: '600,25 300,25 0,26 0,0 600,0 '
-            },
-            {
-                value: '600,0 300,13 0,26 0,0 600,0 '
-            },
-
-
-            ],
-            easing: 'easeInSine',
-            duration: 2800,
-            loop: false,
-            delay: 0,
-        });
+      var d = new Date();
+      document.getElementById("year").innerHTML = d.getFullYear();
+      var d = new Date();
+      document.getElementById("day").innerHTML = d.getDate();
+      var d = new Date();
+      document.getElementById("month").innerHTML = d.getMonth() + 1;
     </script>
 
     <script>
-        let t1 = anime.timeline({
-            duration: 3000,
-            easing: 'easeInOutSine'
+      anime({
+        targets: ".polymorph",
+        points: [
+          {
+            value: "600,0 301,0 0,0 0,0 600,0  ",
+          },
+          {
+            value: "600,25 300,25 0,26 0,0 600,0 ",
+          },
+          {
+            value: "600,0 300,13 0,26 0,0 600,0 ",
+          },
+        ],
+        easing: "easeInSine",
+        duration: 2800,
+        loop: false,
+        delay: 0,
+      });
+    </script>
 
-        })
+    <script>
+      let t1 = anime.timeline({
+        duration: 3000,
+        easing: "easeInOutSine",
+      });
 
-        t1.add({
-            targets: '#svg2',
-            keyframes: [
+      t1.add({
+        targets: "#svg2",
+        keyframes: [
+          {
+            scale: 1,
+          },
 
-                {
-                    scale: 1
-                },
-
-                {
-                    scale: 0
-                },
-            ],
-            duration: 2500
-
-        })
-        t1.add({
-            targets: ["#logo", 'feTurbulence', 'feDisplacementMap'],
-            baseFrequency: 0,
-            numOctaves: 0,
-
-        }, "-=4000")
+          {
+            scale: 0,
+          },
+        ],
+        duration: 2500,
+      });
+      t1.add(
+        {
+          targets: ["#logo", "feTurbulence", "feDisplacementMap"],
+          baseFrequency: 0,
+          numOctaves: 0,
+        },
+        "-=4000"
+      );
     </script>
     <!-- handling drak/light mode local storage -->
     <script>
-        document.addEventListener('DOMContentLoaded', (event) => {
-            ((localStorage.getItem('mode') || 'dark') === 'dark') ? document.querySelector('body').classList.add('dark') : document.querySelector('body').classList.remove('dark')
-        })
+      document.addEventListener("DOMContentLoaded", (event) => {
+        (localStorage.getItem("mode") || "dark") === "dark"
+          ? document.querySelector("body").classList.add("dark")
+          : document.querySelector("body").classList.remove("dark");
+      });
     </script>
-
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-84556181-1"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-84556181-1"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
+      window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'UA-84556181-1');
+      gtag("config", "UA-84556181-1");
     </script>
-</body>
-
+  </body>
 </html>
