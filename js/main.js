@@ -114,7 +114,7 @@
 			animate: 1000
 		});
 	};
-
+/*
 	var skillsWayPoint = function() {
 		if ($('#fh5co-skills').length > 0 ) {
 			$('#fh5co-skills').waypoint( function( direction ) {
@@ -126,7 +126,7 @@
 			} , { offset: '90%' } );
 		}
 
-	};
+	};*/
 
 
 	// Load my spin gif on pageload
