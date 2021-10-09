@@ -154,13 +154,13 @@ function bgImgNone() {
     "url(images/bgnone.jpg)";
 }
 function bgSand() {
-  document.querySelector("body").style.backgroundImage = "url(images/sand.jpg)";
+  document.querySelector("body").style.backgroundImage = "url(images/sand-night.jpg)";
 }
-function bgMountains() {
-  document.querySelector("body").style.backgroundImage = "url(images/mountains.jpg)";
+function bgOcean() {
+  document.querySelector("body").style.backgroundImage = "url(images/ocean.jpg)";
 }
-function bgRocks() {
-  document.querySelector("body").style.backgroundImage = "url(images/rocks.jpg)";
+function bgSur() {
+  document.querySelector("body").style.backgroundImage = "url(images/big-sur.jpg)";
 }
 
 /*

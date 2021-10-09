@@ -17,7 +17,7 @@ CSS INDEX
 @import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
 /*** 2. FUNDAMENTALS ***/
 :root {
-  --background: url("/images/mountains.jpg");
+  --background: url("/images/sand-night.jpg");
   --text-color: #fff;
   --font-size: 13px;
   --logo: url("/images/apple-c-icon.png");
@@ -637,7 +637,7 @@ textarea {
 #bg-container {
   width: 100%;
   background: rgba(0, 0, 0, 0) !important;
-  margin: 0px;
+  margin-top: 25px;
   padding: 0px;
 }
 
