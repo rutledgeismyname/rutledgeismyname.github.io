@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -63,15 +62,10 @@
             <button class="btn btn-lg btn-block" id="submit" style="margin-top: 10px" type="submit" onclick="hideLogin();">
                 Sign in
             </button>
-            <!-- <p class="skip" style="margin-top: 10px" onclick="hideLogin();">
-          Skip >
-        </p>-->
-
             <!-- <p class="skip-info">
                 Don't worry, any information entered is not <br />saved or
                 stored. Happy visiting!
             </p> -->
-
             <div id="bg-container">
                 <p>Please choose a background</p>
                 <div class="row">
@@ -128,24 +122,6 @@
                     <a class="dropdown-item clip" onclick="clipAlert();">Copy URL</a>
                 </div>
             </li>
-            <!-- 
-            <li class="nav-item dropdown">
-                <a class="nav-link" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding-top: 10px">
-                    Skills
-                </a>
-
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item">Front-End | 95%</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item">Design | 95%</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item">Git | 83%</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item">Back-End | 35%</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" ondblclick="openModal()" ontouchend="openModal()" data-toggle="modal" data-target="#aboutMe">View More...</a>
-                </div>
-            </li> -->
             <li class="nav-item dropdown">
                 <a class="nav-link" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding-top: 10px">
                     Contact
@@ -197,10 +173,6 @@
             <img src="images/folder.png" id="folders" title="Projects" alt="Projects" />
             <p>Projects</p>
         </div>
-        <!-- <div class="folder-1 resize-drag components-folder" data-target="#myComponents">
-            <img src="images/folder-web.png" id="folders" title="Components" alt="Components" />
-            <p>Components</p>
-        </div> -->
         <div class="folder-1 resize-drag about-folder" data-target="#aboutMe">
             <img src="images/folder.png" id="folders" title="About Me" alt="About Me" />
             <p>About Me</p>
@@ -211,12 +183,6 @@
         </div>
 
     </div>
-    <!-- <div class="folder-container-2">
-        <div class="folder-1 resize-drag readme-file" data-target="#readMe">
-            <img src="images/readme.png" id="folders" title="Read Me" alt="Read Me" />
-            <p>readme.md</p>
-        </div>
-    </div> -->
     <!-- Modal -->
     <div class="modal" id="myProjects" tabindex="-1" role="dialog" aria-labelledby="myProjects" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
@@ -482,21 +448,18 @@
     <script src="js/script.js"></script>
     <script src="js/folder-dbl.js"></script>
     <script src="js/loader.js"></script>
-     <!-- Global site tag (gtag.js) - Google Analytics -->
-     <script
-     async
-     src="https://www.googletagmanager.com/gtag/js?id=UA-84556181-1"
-   ></script>
-   <script>
-     window.dataLayer = window.dataLayer || [];
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-84556181-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-     function gtag() {
-       dataLayer.push(arguments);
-     }
-     gtag("js", new Date());
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
 
-     gtag("config", "UA-84556181-1");
-   </script>
+        gtag("config", "UA-84556181-1");
+    </script>
 </body>
 
 </html>
