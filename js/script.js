@@ -20,7 +20,7 @@ var topRightDateString = topRightDate.toDateString();
 document.getElementById("date").innerHTML = `${topRightDateString}`;
 
 //////////////
-/////// Copy URL so users can share ////////////
+//////// Copy URL so users can share ////////////
 /////////////
 const $temp = $("<input>");
 const $url = $(location).attr("href");
