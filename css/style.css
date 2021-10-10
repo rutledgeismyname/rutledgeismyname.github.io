@@ -310,7 +310,6 @@ th {
 }
 
 .green-button:after {
-  content: "\2B0C";
   /* This will render the '' */
   color: rgba(0, 0, 0, 0.4);
   top: -45%;
@@ -323,7 +322,6 @@ th {
 }
 
 .yellow-button:after {
-  content: "\2212";
   /* This will render the '-' */
   color: rgba(0, 0, 0, 0.4);
   top: -5.5px;
@@ -334,7 +332,6 @@ th {
 }
 
 .red-button:after {
-  content: "\00d7";
   /* This will render the 'X' */
   color: rgba(0, 0, 0, 0.5);
   top: -5.5px;
