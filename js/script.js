@@ -157,15 +157,15 @@ function bgImgNone() {
 }
 
 function bgSand() {
-    document.querySelector("body").style.backgroundImage = "url(images/sand-night.jpg)";
+    document.querySelector("body").style.backgroundImage = "url(images/sand-night.webp)";
 }
 
 function bgOcean() {
-    document.querySelector("body").style.backgroundImage = "url(images/ocean.jpg)";
+    document.querySelector("body").style.backgroundImage = "url(images/ocean.webp)";
 }
 
 function bgSur() {
-    document.querySelector("body").style.backgroundImage = "url(images/big-sur.jpg)";
+    document.querySelector("body").style.backgroundImage = "url(images/big-sur.webp)";
 }
 
 /*
