@@ -378,17 +378,21 @@ th {
 }
 
 .progress-adobe {
-    width: 85%;
+    width: 86%;
+    border-radius: 4px;
+}
+.progress-api {
+    width: 55%;
     border-radius: 4px;
 }
 
 .progress-react {
-    width: 64%;
+    width: 40%;
     border-radius: 4px;
 }
 
 .progress-backend {
-    width: 38%;
+    width: 22%;
     border-radius: 4px;
 }
 
