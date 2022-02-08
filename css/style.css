@@ -106,15 +106,18 @@ th {
   position: fixed;
   bottom: 50px;
   right: 15px;
-  width: 340px;
+  width: 360px;
   background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   -moz-backdrop-filter: blur(10px);
   -o-background-filter: blur(10px);
   z-index: 99999999;
-  height: 105px;
-  border-radius: 8px;
+  height: 110px;
+  border-bottom-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+  border-top-right-radius: 1em !important;
+  border-top-left-radius: 1em !important;
   -webkit-animation: fadeInRight;
           animation: fadeInRight;
   /* referring directly to the animation's @keyframe declaration */
@@ -136,14 +139,14 @@ th {
 .notification header {
   background-color: rgba(0, 0, 0, 0.3);
   color: var(--text-color);
-  border-top-right-radius: 8px;
-  border-top-left-radius: 8px;
+  border-top-right-radius: 1em !important;
+  border-top-left-radius: 1em !important;
 }
 
 .notification header span {
   text-align: left;
-  font-size: 13px;
-  padding-left: 5px;
+  font-size: 14px;
+  padding-left: 3px;
   color: #eee;
 }
 
@@ -173,10 +176,11 @@ th {
 
 .notification .closed {
   position: absolute;
-  right: 5px;
-  top: 5px;
+  right: 6px;
+  top: 7px;
   font-size: 10px;
-  width: 16px;
+  height: 15px;
+  width: 17px;
   border-radius: 100%;
   text-align: center;
   background: rgba(0, 0, 0, 0.3);
