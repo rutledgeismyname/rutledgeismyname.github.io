@@ -156,8 +156,8 @@ function bgImgNone() {
         "url(images/bgnone.jpg)";
 }
 
-function bgSand() {
-    document.querySelector("body").style.backgroundImage = "url(images/sand-night.webp)";
+function bgDesert() {
+    document.querySelector("body").style.backgroundImage = "url(images/mac22-des-min.jpg)";
 }
 
 function bgOcean() {
