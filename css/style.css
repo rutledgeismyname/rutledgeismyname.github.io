@@ -33,6 +33,11 @@ body {
 
 a {
   text-decoration: none !important;
+  color: #60cfff;
+}
+
+a:hover {
+  color: #ccc;
 }
 
 body {

@@ -35,6 +35,11 @@ body {
 
 a {
     text-decoration: none !important;
+    color: #60cfff;
+}
+
+a:hover {
+    color: #ccc;
 }
 
 body {
@@ -387,6 +392,7 @@ th {
     width: 86%;
     border-radius: 4px;
 }
+
 .progress-api {
     width: 55%;
     border-radius: 4px;
