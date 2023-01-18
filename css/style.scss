@@ -105,9 +105,9 @@ th {
 /*** 4. TABLE/MODAL/NOTIFICATION Styles (includes modal, buttons, content within modals) ***/
 .notification {
     position: fixed;
-    bottom: 50px;
-    right: 15px;
-    width: 360px;
+    bottom: 55px;
+    right: 12px;
+    width: 330px;
     background: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -115,10 +115,10 @@ th {
     -o-background-filter: blur(10px);
     z-index: 99999999;
     height: 110px;
-    border-bottom-right-radius: 1em;
-    border-bottom-left-radius: 1em;
-    border-top-right-radius: 1em !important;
-    border-top-left-radius: 1em !important;
+    border-bottom-right-radius: .7em;
+    border-bottom-left-radius: .7em;
+    border-top-right-radius: .7em !important;
+    border-top-left-radius: .7em !important;
     animation: fadeInRight;
     /* referring directly to the animation's @keyframe declaration */
     animation-duration: 1s;
