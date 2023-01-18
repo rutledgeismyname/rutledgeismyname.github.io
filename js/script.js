@@ -160,18 +160,14 @@ function bgDesert() {
     document.querySelector("body").style.backgroundImage = "url(images/mac22-des-min.jpg)";
 }
 
-function bgOcean() {
-    document.querySelector("body").style.backgroundImage = "url(images/ocean.webp)";
+function bgLake() {
+    document.querySelector("body").style.backgroundImage = "url(images/lake.jpg)";
 }
 
 function bgSur() {
     document.querySelector("body").style.backgroundImage = "url(images/big-sur.webp)";
 }
 
-/*
-function bgPaint() {
-  document.querySelector("body").style.backgroundImage = "url(images/paint.jpg)";
-}*/
 
 //////////////
 /////// Custom Notification Hiding ////////////
